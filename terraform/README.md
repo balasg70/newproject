@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Aws-env-provisioning-with-terraform
 This is a template for provisioning a full AWS infrastructure from ground using Terraform.
 
