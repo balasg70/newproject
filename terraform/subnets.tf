@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 resource "aws_subnet" "PublicAZA" {
   vpc_id = aws_vpc.terraformmain.id
   cidr_block = var.Subnet-Public-AzA-CIDR
@@ -48,4 +47,3 @@ resource "aws_route_table_association" "PrivateAZA" {
     subnet_id = aws_subnet.PrivateAZA.id
     route_table_id = aws_route_table.private.id
 }
->>>>>>> c5374b6414c3079bb8ba6fa988a1aa7390ebfdcf
