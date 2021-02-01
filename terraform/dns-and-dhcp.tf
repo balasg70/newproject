@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 resource "aws_vpc_dhcp_options" "shaandhcp" {
     domain_name = var.DnsZoneName
     domain_name_servers = ["AmazonProvidedDNS"]
@@ -54,4 +53,3 @@ resource "aws_route53_zone" "main" {
 #   ttl = "300"
 #   records = ["aws_instance.database.private_ip"]
 #}
->>>>>>> c5374b6414c3079bb8ba6fa988a1aa7390ebfdcf
