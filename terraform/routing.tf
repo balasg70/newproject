@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Declare the data source
 data "aws_availability_zones" "available" {}
 
@@ -120,4 +119,3 @@ resource "aws_nat_gateway" "PublicAZA" {
     subnet_id = aws_subnet.PublicAZA.id
     depends_on = [aws_internet_gateway.gw]
 }
->>>>>>> c5374b6414c3079bb8ba6fa988a1aa7390ebfdcf
