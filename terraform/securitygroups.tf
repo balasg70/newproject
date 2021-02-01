@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 resource "aws_security_group" "WebApp" {
   name = "WebApp"
   tags = {
@@ -108,4 +107,3 @@ resource "aws_security_group" "MySQLDB" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
->>>>>>> c5374b6414c3079bb8ba6fa988a1aa7390ebfdcf
