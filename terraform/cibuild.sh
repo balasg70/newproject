@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 
 set -e
@@ -50,4 +49,3 @@ if [ "${BASH_SOURCE[0]}" = "${0}" ]; then
         terraform apply out.plan
     fi
 fi
->>>>>>> c5374b6414c3079bb8ba6fa988a1aa7390ebfdcf
