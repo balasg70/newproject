@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 variable "region" {
   default = "eu-west-2"
 }
@@ -90,4 +89,3 @@ variable "kp_devops" {
   type        = string
   description = "EC2 Key pair name for the EC2"
 }
->>>>>>> c5374b6414c3079bb8ba6fa988a1aa7390ebfdcf
